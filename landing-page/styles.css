@@ -1,0 +1,159 @@
+* {
+    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.header {
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    padding: 32px 128px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.body {
+    height: 128px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+}
+
+.footer {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #315c9d;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+#header-logo {
+    font-weight: bold;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+#image {
+    display: flex;
+    flex-basis: 512px;
+    justify-content: center;
+    align-items: center;
+    background-color: #666;
+    color: white;
+    flex-shrink: 4;
+}
+
+#awesome {
+    padding-bottom: 16px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#subtext {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+}
+
+.description {
+    flex-basis: 480px;
+    gap: 16px;
+}
+
+#button {
+    margin-top: 16px;
+    background-color: #315c9d;
+    font-size: 16px;
+    color: white;
+    width: 128px;
+    height: 32px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.quote {
+    display: flex;
+    background-color: #dddddd;
+    flex-direction: column;
+    flex-basis: 144px;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote {
+    width: 512px;
+}
+
+#author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.random-info {
+    margin: 16px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.squares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+    text-align: center;
+    padding: 0px 16px;
+}
+
+img {
+    height: 64px;
+    width: 64px;
+    border: 4px solid #315c9d;
+    border-radius: 16px;
+}
